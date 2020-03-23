@@ -1,0 +1,42 @@
+/* WORKING ON HEADER */
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #f72210;
+  margin-bottom: 5px;
+}
+
+.fa-bars {
+  color: #fb9a94;
+  ;
+}
+
+/* WOEKING ON MAIN */
+
+.float-absolue {
+  position: absolute;
+  background-color: rgba(255, 255, 255, .9);
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  bottom: 0;
+  left: 0;
+}
+
+.block-title {
+font: bold 14px/14px "Roboto Condensed",sans-serif;
+color: rgba(3,3,3,.4);
+padding-top: 11px;
+padding-bottom: 11px;
+}
+
+.img-square-25 {
+  width: 95px;
+  height: 95px;
+  background-position: cover;
+}
+
+.more-story {
+  min-height: 96px;
+}
