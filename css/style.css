@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f4f5f6;
   color: #333;
@@ -34,6 +38,25 @@ body {
   left: 0;
 }
 
+.heading-link {
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.heading-link:hover {
+  text-decoration: none;
+  color: black;
+  box-shadow: inset 0px -1px #f72210;
+}
+
+.top-story-container .heading-link {
+  font-size: 20px;
+}
+
+.featured-story-container .heading-link{
+  font-size: 20px;
+}
 .block-title {
   font: bold 14px/14px "Roboto Condensed", sans-serif;
   color: rgba(3, 3, 3, .4);
@@ -127,24 +150,15 @@ body {
   text-decoration: none;
 }
 
-
-.magzine-link {
-  color: black;
-  font-size: 16px;
-  font-weight: bolder;
+.border-bottem {
+  border-bottom: 1px solid lightgray;
 }
 
-
-.magzine-link:hover{
-  text-decoration: none;
-  color: black;
-  box-shadow: inset 0px -1px  #f72210;
-}
-
-.featured-slideshow .n-icon{
+.featured-slideshow .n-icon {
   position: relative;
 }
-.featured-slideshow .n-icon::after{
+
+.featured-slideshow .n-icon::after {
   border-bottom: 3px solid red;
   border-right: 3px solid red;
   display: block;
@@ -158,16 +172,49 @@ body {
 
 .count-link {
   width: 70px;
-    height: 52px;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 58px;
-    text-indent: 5px;
-    text-align: center;
-    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-    color: #e9212e;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+.category-link {
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+.category-link:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.category-item-small{
+  min-height: 95px;
+}
+.category-item-small img {
+   width: 90px;
+   height: 90px;
+}
+
+.cat-item-link{
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.cat-item-link:hover{
+  color: #f72210;
+  text-decoration: none;
 }
