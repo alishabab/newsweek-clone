@@ -3,7 +3,7 @@ body {
   color: #333;
   font-size: 13px;
   line-height: 18px;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
@@ -26,6 +26,7 @@ body {
 .float-absolue {
   position: absolute;
   background-color: rgba(255, 255, 255, .9);
+  font-weight: 700;
   color: #f72210;
   text-transform: uppercase;
   padding: 8px 15px 9px;
@@ -34,10 +35,10 @@ body {
 }
 
 .block-title {
-font: bold 14px/14px "Roboto Condensed",sans-serif;
-color: rgba(3,3,3,.4);
-padding-top: 11px;
-padding-bottom: 11px;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, .4);
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
 .img-square-25 {
@@ -52,4 +53,90 @@ padding-bottom: 11px;
 
 .latest-news {
   min-height: 96px;
+}
+
+/* WORKING ON BOOTOM */
+
+.n-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 5px;
+}
+
+.n-icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.see-all {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-decoration: none;
+}
+
+.see-all::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  /* background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat; */
+  background-image: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg);
+}
+
+.see-all:hover {
+  background-color: #dbdcdd;
+  text-decoration: none;
+  color: black;
+}
+
+.magzine-item img {
+  min-height: 60%;
+}
+
+.category {
+  font: bold 14px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mag-cat {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.cat a {
+  font: bold 14px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+.magzine-link {
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+
+.magzine-link:hover{
+  text-decoration: none;
+  color: black;
+  box-shadow: inset 0px -1px  #f72210;
 }
