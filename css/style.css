@@ -140,3 +140,18 @@ body {
   color: black;
   box-shadow: inset 0px -1px  #f72210;
 }
+
+.featured-slideshow .n-icon{
+  position: relative;
+}
+.featured-slideshow .n-icon::after{
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
