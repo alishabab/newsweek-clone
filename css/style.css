@@ -331,6 +331,10 @@ header {
   left: 50px;
 }
 
+.marketing-item {
+  padding-bottom: 20px;
+}
+
 .marketing-item h3 {
   color: black;
   font-weight: 700;
@@ -342,6 +346,7 @@ header {
 }
 
 .marketing-item .mag-cat {
+  display: inline-block;
   padding: 8px 10px;
   font-size: 16px;
   font-weight: 700;
@@ -353,6 +358,7 @@ header {
 
 .subscribe-content{
   background-color: #f4f5f6;
+  min-height: 191px;
 }
 .newsletter-content {
   border: 1px solid lightgray;
