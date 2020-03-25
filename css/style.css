@@ -149,7 +149,26 @@ header {
 }
 
 .opinion .block-title {
-  color:#444;
+  color:#666;
+}
+
+.debate-item{
+  border-top: 3px solid purple;
+}
+
+.debate-item .cat-item-link:hover{
+  color: black
+}
+
+.black-round {
+  margin-left: 40%;
+  display: inline-block;
+  padding: 10px;
+  background-color: black;
+  border-radius: 50%;
+  color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* WORKING ON BOOTOM */
@@ -224,8 +243,19 @@ header {
   text-decoration: none;
 }
 
-.border-bottem {
+.bb-lgray {
   border-bottom: 1px solid lightgray;
+}
+
+.bt-lgray{
+  border-top: 1px solid lightgray;
+  margin-top: 2px;
+}
+
+.img-absolute {
+  position: absolute;
+  right: 0;
+  bottom: -2px;
 }
 
 .featured-slideshow .n-icon {
@@ -261,6 +291,7 @@ header {
 }
 
 .category-link {
+  display: inline-block;
   color: #f72210;
   padding-top: 25px;
   font-size: 22px;
@@ -292,4 +323,43 @@ header {
 .cat-item-link:hover {
   color: #f72210;
   text-decoration: none;
+}
+
+.nw-mag-img {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.marketing-item h3 {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+.marketing-item .category-link {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.marketing-item .mag-cat {
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.marketing-content {
+  margin-left: 70px;
+}
+
+.subscribe-content{
+  background-color: #f4f5f6;
+}
+.newsletter-content {
+  border: 1px solid lightgray;
+}
+.newsletter-content img {
+  display: block;
+  height: 191px;
+  width: 40%;
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
 }
