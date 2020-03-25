@@ -3,9 +3,13 @@
   list-style: none;
 }
 
+a {
+  color: #333;
+}
+
 a:hover {
   text-decoration: none;
-  color: white;
+  color: #333;
 }
 
 body {
@@ -149,14 +153,14 @@ header {
 }
 
 .opinion .block-title {
-  color:#666;
+  color: #666;
 }
 
-.debate-item{
+.debate-item {
   border-top: 3px solid purple;
 }
 
-.debate-item .cat-item-link:hover{
+.debate-item .cat-item-link:hover {
   color: black
 }
 
@@ -169,6 +173,21 @@ header {
   color: lightgray;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.sponsored-item .float-absolue {
+  color: #3581f4;
+}
+
+.sponsored-item-content {
+  border: 1px solid lightgray;
+}
+
+.culture-n-travel-item .float-absolue {
+  color: #333;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 /* WORKING ON BOOTOM */
@@ -247,7 +266,7 @@ header {
   border-bottom: 1px solid lightgray;
 }
 
-.bt-lgray{
+.bt-lgray {
   border-top: 1px solid lightgray;
   margin-top: 2px;
 }
@@ -340,6 +359,7 @@ header {
   font-weight: 700;
   font-size: 20px;
 }
+
 .marketing-item .category-link {
   font-size: 14px;
   font-weight: 800;
@@ -356,13 +376,15 @@ header {
   margin-left: 70px;
 }
 
-.subscribe-content{
+.subscribe-content {
   background-color: #f4f5f6;
   min-height: 191px;
 }
+
 .newsletter-content {
   border: 1px solid lightgray;
 }
+
 .newsletter-content img {
   display: block;
   height: 191px;
