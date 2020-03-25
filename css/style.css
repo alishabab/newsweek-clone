@@ -1,5 +1,11 @@
-*{
+* {
   box-sizing: border-box;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 body {
@@ -11,21 +17,84 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  background-color: white;
+}
+
 /* WORKING ON HEADER */
 
-.navbar {
+.header-top {
   width: 100%;
-  height: 50px;
+  /* height: 40px; */
   background-color: #f72210;
-  margin-bottom: 5px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.header-bottom {
+  width: 100%;
+}
+
+.header-bottom::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 60px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.nav-logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nav-logo-big {
+  color: white;
+  font-size: 65px;
+  font-weight: 900;
 }
 
 .fa-bars {
   color: #fb9a94;
-  ;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.navlink-custom {
+  color: white;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  display: inline-block;
+  padding: 6px 3px;
+  text-decoration: none;
+}
+
+.subscribe {
+  background-color: white;
+  color: #f72210;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 3px;
+}
+
+.search-input {
+  font-size: 16px;
+  color: gray;
+}
+
+.border-right {
+  border-right: 1px solid lightgray;
 }
 
 /* WOEKING ON MAIN */
+
+.back-white {
+  background-color: white;
+}
 
 .float-absolue {
   position: absolute;
@@ -54,9 +123,10 @@ body {
   font-size: 20px;
 }
 
-.featured-story-container .heading-link{
+.featured-story-container .heading-link {
   font-size: 20px;
 }
+
 .block-title {
   font: bold 14px/14px "Roboto Condensed", sans-serif;
   color: rgba(3, 3, 3, .4);
@@ -71,11 +141,15 @@ body {
 }
 
 .more-story {
-  min-height: 96px;
+  min-height: 100px;
 }
 
 .latest-news {
-  min-height: 96px;
+  min-height: 100px;
+}
+
+.opinion .block-title {
+  color:#444;
 }
 
 /* WORKING ON BOOTOM */
@@ -199,22 +273,23 @@ body {
   color: #f72210;
 }
 
-.category-item-small{
+.category-item-small {
   min-height: 95px;
 }
+
 .category-item-small img {
-   width: 90px;
-   height: 90px;
+  width: 90px;
+  height: 90px;
 }
 
-.cat-item-link{
+.cat-item-link {
   color: black;
   font-size: 16px;
   font-weight: bolder;
   text-decoration: none;
 }
 
-.cat-item-link:hover{
+.cat-item-link:hover {
   color: #f72210;
   text-decoration: none;
 }
