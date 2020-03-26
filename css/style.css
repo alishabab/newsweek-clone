@@ -29,20 +29,15 @@ main {
   margin-top: 50px;
 }
 
-.header-top {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
 /* WORKING ON HEADER */
 
 .header-top {
   width: 100%;
-  /* height: 40px; */
   background-color: #f72210;
   font-family: 'Roboto Slab', serif;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .header-bottom {
@@ -113,7 +108,7 @@ main {
 
 .float-absolue {
   position: absolute;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   font-weight: 700;
   color: #f72210;
   text-transform: uppercase;
@@ -131,7 +126,7 @@ main {
 .heading-link:hover {
   text-decoration: none;
   color: black;
-  box-shadow: inset 0px -1px #f72210;
+  box-shadow: inset 0 -1px #f72210;
 }
 
 .top-story-container .heading-link {
@@ -144,7 +139,7 @@ main {
 
 .block-title {
   font: bold 14px/14px "Roboto Condensed", sans-serif;
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
   padding-top: 11px;
   padding-bottom: 11px;
 }
@@ -171,8 +166,20 @@ main {
   border-top: 3px solid purple;
 }
 
+.cat-item-link {
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.cat-item-link:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 .debate-item .cat-item-link:hover {
-  color: black
+  color: black;
 }
 
 .black-round {
@@ -237,7 +244,6 @@ main {
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  /* background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat; */
   background-image: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg);
 }
 
@@ -343,18 +349,6 @@ main {
   height: 90px;
 }
 
-.cat-item-link {
-  color: black;
-  font-size: 16px;
-  font-weight: bolder;
-  text-decoration: none;
-}
-
-.cat-item-link:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
 .nw-mag-img {
   position: absolute;
   top: 10px;
@@ -432,12 +426,16 @@ main {
 }
 
 .footer-edition-links ul li a {
- font-size: 14px;
+  font-size: 14px;
+}
+
+.footer-bottom-links ul li a {
+  font-size: 14px;
 }
 
 .footer-edition-links ul li a:hover {
   color: black;
- }
+}
 
 .footer-edition-links ul li span {
   border-right: 1px solid gray;
@@ -449,14 +447,8 @@ main {
   padding-right: 6px;
 }
 
-
-
-.footer-bottom-links ul li a {
-  font-size: 14px;
-}
-
-.footer-bottom-links ul li a:hover{
-  color: black
+.footer-bottom-links ul li a:hover {
+  color: black;
 }
 
 .footer-bottom-links ul li span {
