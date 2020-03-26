@@ -1,0 +1,23 @@
+{
+  "name": "newsweek-clone",
+  "version": "1.0.0",
+  "description": "NewsWeek Clone Using Bootstrap [Solo Project]",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alishabab/newsweek-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alishabab/newsweek-clone/issues"
+  },
+  "homepage": "https://github.com/alishabab/newsweek-clone#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
