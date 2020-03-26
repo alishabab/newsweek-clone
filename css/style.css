@@ -402,3 +402,64 @@ main {
   width: 40%;
   background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
 }
+
+/* Working on footer */
+
+.footer-logo {
+  color: #f72210;
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.footer-logo:hover {
+  color: #f72210;
+}
+
+.footer-links h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
+
+.social-links {
+  font-size: 24px;
+}
+
+.footer-edition-links ul li {
+  display: inline;
+  padding-right: 6px;
+}
+
+.footer-edition-links ul li a {
+ font-size: 14px;
+}
+
+.footer-edition-links ul li a:hover {
+  color: black;
+ }
+
+.footer-edition-links ul li span {
+  border-right: 1px solid gray;
+  margin: 0 7px;
+}
+
+.footer-bottom-links ul li {
+  display: inline;
+  padding-right: 6px;
+}
+
+
+
+.footer-bottom-links ul li a {
+  font-size: 14px;
+}
+
+.footer-bottom-links ul li a:hover{
+  color: black
+}
+
+.footer-bottom-links ul li span {
+  border-right: 1px solid gray;
+  margin: 0 7px;
+}
