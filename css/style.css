@@ -71,7 +71,9 @@ main {
 .fa-bars {
   color: #fb9a94;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: 900;
+  padding-left: 10px;
 }
 
 .navlink-custom {
