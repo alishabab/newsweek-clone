@@ -1,7 +1,7 @@
 # Using Bootstrap [Solo Project]
 Solo Project : This project consists of building a responsive webpage using bootstrap framework.
 
-> The goal is to make a clone of old an old version of the Apple website webpage.
+> The goal is to make a clone newsweek.com responsive hompage.
 
 ![screenshot](screenshot.JPG)
 
