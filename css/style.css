@@ -25,6 +25,17 @@ header {
   background-color: white;
 }
 
+main {
+  margin-top: 50px;
+}
+
+.header-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 /* WORKING ON HEADER */
 
 .header-top {

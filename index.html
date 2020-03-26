@@ -22,12 +22,13 @@
 <body>
   <header>
     <nav class="navbar header-top navbar-expand-lg justify-content-lg-between py-3">
-      <a class="navbar-brand nav-logo d-lg-none" href="#">Newsweek</a>
-      <a class="navbar-brand nav-logo-big d-none d-lg-block" href="#">Newsweek</a>
-      <div class="date-n-weather d-none d-sm-block order-lg-first">
-        <a href="#" class="navlink-custom"><i class="fas fa-cloud-sun-rain"></i> 28°</a>
-        <a href="#" class="navlink-custom">New Delhi, IN <i class="fas fa-greater-than"></i></a> <br>
-        <date class="navlink-custom d-none d-lg-block">Wed, Mar 25, 2020</date>
+      
+      <a class="navbar-brand nav-logo-big d-none" href="#">Newsweek</a>
+      <div class="date-n-weather">
+        <a class="navbar-brand nav-logo" href="#">Newsweek</a>
+        <a href="#" class="navlink-custom d-none d-sm-inline-block"><i class="fas fa-cloud-sun-rain"></i> 28°</a>
+        <a href="#" class="navlink-custom d-none d-sm-inline-block">New Delhi, IN <i class="fas fa-greater-than"></i></a> <br>
+        <date class="navlink-custom d-none">Wed, Mar 25, 2020</date>
       </div>
 
       <div class="align-self-lg-end">
@@ -37,7 +38,7 @@
       </div>
 
     </nav>
-    <nav class="navbar header-bottom navbar-expand-lg d-none d-lg-block">
+    <nav class="navbar header-bottom navbar-expand-lg d-none">
       <ul class="navbar-nav d-flex justify-content-between pr-5">
         <li class="nav-item"><a href="#" class="nav-link cat-item-link border-right">U.S </a></li>
         <li class="nav-item"><a href="#" class="nav-link cat-item-link border-right">World </a></li>
@@ -57,10 +58,12 @@
 
   <main>
     <div class="top-section container-fluid">
+
+
       <div class="row">
 
 
-        <div class="top-story-container col-md-7 col-lg-5 order-10 order-md-1 back-white pt-3 mt-3 mt-md-0">
+        <div class="top-story-container col-md-7 col-lg-5 order-10 order-md-1 back-white pt-3 mt-3 mt-md-0 row-item d-md-none">
           <h5 class="block-title">TOP STORY</h5>
           <div>
             <div class="position-relative">
@@ -78,210 +81,72 @@
 
         </div>
 
-          <div class="featured-story-container col-md-5 order-10 col-lg-3 order-md-0 back-white pt-3 mt-3 mt-md-0">
-            <h5 class="block-title">FEATURED STORIES</h5>
+        <div class="top-culture-more-story d-none d-md-block col-md-7 col-lg-5 order-10 order-md-1 back-white">
+          <div class="top-story-container pt-3 mt-3 mt-md-0">
+            <h5 class="block-title">TOP STORY</h5>
             <div>
               <div class="position-relative">
-                <a href="#"><img src="https://d.newsweek.com/en/full/1575699/ohio-coronavirus.jpg" alt="#"
+                <a href="#"><img src="https://d.newsweek.com/en/full/1575793/donald-trump-steve-mnuchin.jpg" alt="#"
                     class="img-fluid"></a>
                 <span class="float-absolue">U.S.</span>
               </div>
-              <a href="#" class="heading-link">Ohio and Louisiana Issue Statewide Stay-at-Home Orders Amid
-                Coronavirus</a>
-              <p>Ohio's order mandating all residents stay at home will be implemented Monday evening at 11.59 p.m.
-                local
-                time, and is scheduled to end on April 6.</p>
-
+              <a href="#" class="heading-link">Trump Announces Activation of the National Guard in Worst-Hit COVID-19
+                States</a>
+              <p>"The federal government has deployed hundreds of tons of supplies from our national stockpile to
+                locations with the greatest need in order to assist in those areas," the president said Sunday.</p>
+  
             </div>
+  
+  
+          </div>
 
-            <div>
-              <div class="position-relative">
-                <a href="#"><img src="https://d.newsweek.com/en/full/1575668/rand-paul.jpg" alt="#"
-                    class="img-fluid"></a>
-                <span class="float-absolue">U.S.</span>
+          <div class="culture-n-travel-container pt-3 mt-3 mt-md-0">
+            <h5 class="block-title">CULTURE & TRAVEL</h5>
+            <div class="row">
+              <div class="culture-n-travel-item col-md-4">
+                <div class="position-relative">
+                  <a href="#"><img src="https://d.newsweek.com/en/full/1575699/ohio-coronavirus.jpg" alt="#"
+                      class="img-fluid"></a>
+                  <span class="float-absolue">TRAVEL</span>
+                </div>
+                <h5 class="pt-2"> <a href="#">Ohio and Louisiana Issue Statewide Stay-at-Home Orders Amid Coronavirus</a></h5>
+                <p>Ohio's order mandating all residents stay at home will be implemented Monday evening at 11.59 p.m.
+                  local
+                  time, and is scheduled to end on April 6.</p>
+
               </div>
-              <a href="#" class="heading-link">Rand Paul Tests Positive for Coronavirus</a>
-              <p>"He expects to be back in the Senate after his quarantine period ends," according to the Kentucky
-                senator's Twitter account.</p>
 
-            </div>
 
-            <div>
-              <div class="position-relative">
-                <a href="#"><img src="https://d.newsweek.com/en/full/1575650/iranians-wearing-masks.jpg" alt="#"
-                    class="img-fluid"></a>
-                <span class="float-absolue">U.S.</span>
+              <div class="culture-n-travel-item col-md-4">
+                <div class="position-relative">
+                  <a href="#"><img src="https://d.newsweek.com/en/full/1575668/rand-paul.jpg" alt="#"
+                      class="img-fluid"></a>
+                  <span class="float-absolue">TRAVEL</span>
+                </div>
+                <h5 class="pt-2"><a href="#"> Rand Paul Tests Positive for Coronavirus</a></h5>
+                <p>"He expects to be back in the Senate after his quarantine period ends," according to the Kentucky
+                  senator's
+                  Twitter account.</p>
+
               </div>
-              <a href="#" class="heading-link">Iran Leader: Coronavirus Is a Poison Built Specifically to Kill
-                Iranians</a>
-              <p>"I don't know how true it is. But when there's such an allegation, can a wise man trust you?" Ayatollah
-                Ali Khamenei tweeted.</p>
 
+              <div class="culture-n-travel-item col-md-4">
+                <div class="position-relative">
+                  <a href="#"><img src="https://d.newsweek.com/en/full/1575650/iranians-wearing-masks.jpg" alt="#"
+                      class="img-fluid"></a>
+                  <span class="float-absolue">TRAVEL</span>
+                </div>
+                <h5 class="pt-2"><a href="#"> Iran Leader: Coronavirus Is a Poison Built Specifically to Kill Iranians</a></h5>
+                <p>"I don't know how true it is. But when there's such an allegation, can a wise man trust you?"
+                  Ayatollah Ali
+                  Khamenei tweeted.</p>
+
+              </div>
             </div>
 
           </div>
 
-          <div class="opinion-container col-lg-4 order-10 order-lg-2 pt-3 mt-3 mt-md-0 back-white">
-            <h5 class="block-title">OPINIONS</h5>
-            <div class="opinion d-flex bb-lgray mb-2">
-              <a href="#"><img
-                  src="https://d.newsweek.com/en/full/1575501/forman-andrew.webp?w=63&h=63&f=05c96bda48a8f56b570d9c2153136832"
-                  alt="" class="mr-3"></a>
-              <div>
-                <a href="#" class="cat-item-link">Coronavirus Is Corporations' Chance to Prove Their Worth to
-                  Communities</a>
-                <p class="block-title">BY ANDREW FORMAN</p>
-              </div>
-
-            </div>
-
-            <div class="opinion d-flex bb-lgray mb-2">
-              <a href="#"><img
-                  src="https://d.newsweek.com/en/full/1576147/jeremy-farrar.webp?w=63&h=63&f=e14f6493acfd2030982ae08e217f34fd"
-                  alt="" class="mr-3"></a>
-              <div>
-                <a href="#" class="cat-item-link">Corporations Are Exploiting the Coronavirus Crisis. And Republicans
-                  Are Helping Them</a>
-                <p class="block-title">BY ROBERT REICH</p>
-              </div>
-
-            </div>
-
-            <div class="opinion d-flex bb-lgray mb-2">
-              <a href="#"><img
-                  src="https://d.newsweek.com/en/full/1575966/beth-vial.webp?w=63&h=63&f=909e8f49f3d3f99e53e4eee9007af78e"
-                  alt="" class="mr-3"></a>
-              <div>
-                <a href="#" class="cat-item-link">Even in a Pandemic, People Still Need Abortions</a>
-                <p class="block-title">BY BETH VIAL</p>
-              </div>
-
-            </div>
-
-            <div class="opinion d-flex mb-2">
-              <a href="#"><img
-                  src="https://d.newsweek.com/en/full/1575501/forman-andrew.webp?w=63&h=63&f=05c96bda48a8f56b570d9c2153136832"
-                  alt="" class="mr-3"></a>
-              <div>
-                <a href="#" class="cat-item-link">Coronavirus Is Corporations' Chance to Prove Their Worth to
-                  Communities</a>
-                <p class="block-title">BY ANDREW FORMAN</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="debate-container col-lg-4 order-4 py-3 mt-3 mt-md-0 back-white">
-            <h5 class="block-title">THE DEBATE</h5>
-            <div class="d-flex debate-item bb-lgray pb-2">
-              <a href="#"><img
-                  src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
-                  alt="" class="mr-3 img-square-25"></a>
-              <h6 class="align-self-center"><a href="#" class="cat-item-link">Biden's Running Mate Needs to Win Him an
-                  Entire State, Not Just a Constituency</a></h6>
-
-            </div>
-
-
-            <div class="d-flex justify-content-between bt-lgray position-relative">
-              <a class="block-title align-self-center"><span class="block-title">BY</span> ANDREW FORMAN</a>
-              <a href="#" class="img-absolute"><img
-                  src="https://d.newsweek.com/en/full/1575501/forman-andrew.webp?w=63&h=63&f=05c96bda48a8f56b570d9c2153136832"
-                  alt="" class="mr-3"></a>
-            </div>
-
-            <span class="black-round">VS</span>
-
-            <div class="d-flex debate-item bb-lgray pb-2">
-              <a href="#"><img
-                  src="https://d.newsweek.com/en/full/1573022/joe-biden-bernie-sanders.webp?w=397&h=265&f=f90d6b535ea0fcac3ae722c195fdf784"
-                  alt="" class="mr-3 img-square-25"></a>
-              <h6 class="align-self-center"><a href="#" class="cat-item-link">A Woman of Color VP Is More Than a
-                  Consolation Prize. It's a Necessity</a></h6>
-
-            </div>
-
-
-            <div class="d-flex justify-content-between bt-lgray position-relative">
-              <a class="block-title align-self-center"><span class="block-title">BY</span> WILL WILLIAMS </a>
-              <a href="#" class="img-absolute"><img
-                  src="https://d.newsweek.com/en/full/1576074/will-williams.webp?w=63&h=63&f=de52cbe776cf49416f8efffc98ef542b"
-                  alt="" class="mr-3"></a>
-            </div>
-          </div>
-
-          <div class="sponsored-insight-container col-md-5 col-lg-3 order-10 order-md-2 order-lg-4 back-white pt-3 mt-3 mt-md-0">
-            <div class="sponsored-item mb-3">
-              <div class="position-relative">
-                <a href="#"><img
-                    src="https://d.newsweek.com/en/full/1571562/leading-dependency-treatment-2020.webp?w=737&f=c78db057fcb51d5d3bb83d1ca6476be8"
-                    alt="#" class="img-fluid"></a>
-                <span class="float-absolue">SPONSORED INSIGHT</span>
-              </div>
-              <div class="sponsored-item-content px-3 py-2">
-              <a href="#" class="heading-link">Who Leads the Field in Dependency Treatment in 2020?</a>
-              <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to
-                ensure
-                that you will not just turn the corner, but keep carrying on down the right road for the rest of your
-                life?
-                Find out more.</p>
-              </div>
-
-            </div>
-
-            <div class="sponsored-item mb-3">
-              <div class="position-relative">
-                <a href="#"><img
-                    src="https://d.newsweek.com/en/full/1571562/leading-dependency-treatment-2020.webp?w=737&f=c78db057fcb51d5d3bb83d1ca6476be8"
-                    alt="#" class="img-fluid"></a>
-                <span class="float-absolue">SPONSORED INSIGHT</span>
-              </div>
-              <div class="sponsored-item-content px-3 py-2">
-              <a href="#" class="heading-link">Who Leads the Field in Dependency Treatment in 2020?</a>
-              <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to
-                ensure
-                that you will not just turn the corner, but keep carrying on down the right road for the rest of your
-                life?
-                Find out more.</p>
-              </div>
-
-            </div>
-
-            <div class="sponsored-item mb-3">
-              <div class="position-relative">
-                <a href="#"><img
-                    src="https://d.newsweek.com/en/full/1571562/leading-dependency-treatment-2020.webp?w=737&f=c78db057fcb51d5d3bb83d1ca6476be8"
-                    alt="#" class="img-fluid"></a>
-                <span class="float-absolue">SPONSORED INSIGHT</span>
-              </div>
-              <div class="sponsored-item-content px-3 py-2">
-              <a href="#" class="heading-link">Who Leads the Field in Dependency Treatment in 2020?</a>
-              <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to
-                ensure
-                that you will not just turn the corner, but keep carrying on down the right road for the rest of your
-                life?
-                Find out more.</p>
-              </div>
-
-            </div>
-
-            <div class="sponsored-item mb-3">
-              <div>
-                <a href="#"><img
-                    src="https://d.newsweek.com/en/full/1568509/newsweek-amplify.webp?w=737&f=24a027f70d549a47789ac4427e8855b4"
-                    alt="#" class="img-fluid"></a>
-              </div>
-              <div class="sponsored-item-content px-3 py-2">
-              <a href="#" class="heading-link">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</a>
-              <p>Newsweek AMPLIFY, the company's independent business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies..</p>
-              </div>
-
-            </div>
-    
-          </div>
-        
-          <div class="more-story-container order-10 order-md-3 col-md-7 col-lg-5 py-3 mt-3 mt-md-0 back-white">
+          <div class="more-story-container py-3 mt-3 mt-md-0">
             <h5 class="block-title bb-lgray">MORE STORIES</h5>
 
             <div class="more-story bb-lgray py-3">
@@ -361,8 +226,456 @@
               <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
             </div>
           </div>
+        </div>
+
+
+        <div class="featured-sponsore-story d-none d-md-block col-md-5 col-lg-3 order-10 order-md-0 back-white">
+
+              <div class="featured-story-container pt-3 mt-3 mt-md-0">
+                <h5 class="block-title">FEATURED STORIES</h5>
+                <div>
+                  <div class="position-relative">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1575699/ohio-coronavirus.jpg" alt="#"
+                        class="img-fluid"></a>
+                    <span class="float-absolue">U.S.</span>
+                  </div>
+                  <a href="#" class="heading-link">Ohio and Louisiana Issue Statewide Stay-at-Home Orders Amid
+                    Coronavirus</a>
+                  <p>Ohio's order mandating all residents stay at home will be implemented Monday evening at 11.59 p.m.
+                    local
+                    time, and is scheduled to end on April 6.</p>
+    
+                </div>
+    
+                <div>
+                  <div class="position-relative">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1575668/rand-paul.jpg" alt="#"
+                        class="img-fluid"></a>
+                    <span class="float-absolue">U.S.</span>
+                  </div>
+                  <a href="#" class="heading-link">Rand Paul Tests Positive for Coronavirus</a>
+                  <p>"He expects to be back in the Senate after his quarantine period ends," according to the Kentucky
+                    senator's Twitter account.</p>
+    
+                </div>
+    
+                <div>
+                  <div class="position-relative">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1575650/iranians-wearing-masks.jpg" alt="#"
+                        class="img-fluid"></a>
+                    <span class="float-absolue">U.S.</span>
+                  </div>
+                  <a href="#" class="heading-link">Iran Leader: Coronavirus Is a Poison Built Specifically to Kill
+                    Iranians</a>
+                  <p>"I don't know how true it is. But when there's such an allegation, can a wise man trust you?" Ayatollah
+                    Ali Khamenei tweeted.</p>
+    
+                </div>
+    
+              </div>
+
+              <div class="sponsored-insight-container pt-3 mt-3 mt-md-0">
+                <div class="sponsored-item mb-3">
+                  <div class="position-relative">
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1571562/leading-dependency-treatment-2020.webp?w=737&f=c78db057fcb51d5d3bb83d1ca6476be8"
+                        alt="#" class="img-fluid"></a>
+                    <span class="float-absolue">SPONSORED INSIGHT</span>
+                  </div>
+                  <div class="sponsored-item-content px-3 py-2">
+                  <a href="#" class="heading-link">Who Leads the Field in Dependency Treatment in 2020?</a>
+                  <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to
+                    ensure
+                    that you will not just turn the corner, but keep carrying on down the right road for the rest of your
+                    life?
+                    Find out more.</p>
+                  </div>
+    
+                </div>
+    
+                <div class="sponsored-item mb-3">
+                  <div class="position-relative">
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1571562/leading-dependency-treatment-2020.webp?w=737&f=c78db057fcb51d5d3bb83d1ca6476be8"
+                        alt="#" class="img-fluid"></a>
+                    <span class="float-absolue">SPONSORED INSIGHT</span>
+                  </div>
+                  <div class="sponsored-item-content px-3 py-2">
+                  <a href="#" class="heading-link">Who Leads the Field in Dependency Treatment in 2020?</a>
+                  <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to
+                    ensure
+                    that you will not just turn the corner, but keep carrying on down the right road for the rest of your
+                    life?
+                    Find out more.</p>
+                  </div>
+    
+                </div>
+    
+                <div class="sponsored-item mb-3">
+                  <div class="position-relative">
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1571562/leading-dependency-treatment-2020.webp?w=737&f=c78db057fcb51d5d3bb83d1ca6476be8"
+                        alt="#" class="img-fluid"></a>
+                    <span class="float-absolue">SPONSORED INSIGHT</span>
+                  </div>
+                  <div class="sponsored-item-content px-3 py-2">
+                  <a href="#" class="heading-link">Who Leads the Field in Dependency Treatment in 2020?</a>
+                  <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to
+                    ensure
+                    that you will not just turn the corner, but keep carrying on down the right road for the rest of your
+                    life?
+                    Find out more.</p>
+                  </div>
+    
+                </div>
+    
+                <div class="sponsored-item mb-3">
+                  <div>
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1568509/newsweek-amplify.webp?w=737&f=24a027f70d549a47789ac4427e8855b4"
+                        alt="#" class="img-fluid"></a>
+                  </div>
+                  <div class="sponsored-item-content px-3 py-2">
+                  <a href="#" class="heading-link">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</a>
+                  <p>Newsweek AMPLIFY, the company's independent business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies..</p>
+                  </div>
+    
+                </div>
+        
+              </div>
+
+        </div>
+
+
+        <div class="featured-story-container col-md-5 order-10 col-lg-3 order-md-0 back-white pt-3 mt-3 mt-md-0 row-item d-md-none">
+            <h5 class="block-title">FEATURED STORIES</h5>
+            <div>
+              <div class="position-relative">
+                <a href="#"><img src="https://d.newsweek.com/en/full/1575699/ohio-coronavirus.jpg" alt="#"
+                    class="img-fluid"></a>
+                <span class="float-absolue">U.S.</span>
+              </div>
+              <a href="#" class="heading-link">Ohio and Louisiana Issue Statewide Stay-at-Home Orders Amid
+                Coronavirus</a>
+              <p>Ohio's order mandating all residents stay at home will be implemented Monday evening at 11.59 p.m.
+                local
+                time, and is scheduled to end on April 6.</p>
+
+            </div>
+
+            <div>
+              <div class="position-relative">
+                <a href="#"><img src="https://d.newsweek.com/en/full/1575668/rand-paul.jpg" alt="#"
+                    class="img-fluid"></a>
+                <span class="float-absolue">U.S.</span>
+              </div>
+              <a href="#" class="heading-link">Rand Paul Tests Positive for Coronavirus</a>
+              <p>"He expects to be back in the Senate after his quarantine period ends," according to the Kentucky
+                senator's Twitter account.</p>
+
+            </div>
+
+            <div>
+              <div class="position-relative">
+                <a href="#"><img src="https://d.newsweek.com/en/full/1575650/iranians-wearing-masks.jpg" alt="#"
+                    class="img-fluid"></a>
+                <span class="float-absolue">U.S.</span>
+              </div>
+              <a href="#" class="heading-link">Iran Leader: Coronavirus Is a Poison Built Specifically to Kill
+                Iranians</a>
+              <p>"I don't know how true it is. But when there's such an allegation, can a wise man trust you?" Ayatollah
+                Ali Khamenei tweeted.</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="opinion-debate-latest-story col-lg-4 order-10 order-lg-2 back-white">
+
+                <div class="opinion-container pt-3 mt-3 mt-md-0 back-white">
+                  <h5 class="block-title">OPINIONS</h5>
+                  <div class="opinion d-flex bb-lgray mb-2">
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1575501/forman-andrew.webp?w=63&h=63&f=05c96bda48a8f56b570d9c2153136832"
+                        alt="" class="mr-3"></a>
+                    <div>
+                      <a href="#" class="cat-item-link">Coronavirus Is Corporations' Chance to Prove Their Worth to
+                        Communities</a>
+                      <p class="block-title">BY ANDREW FORMAN</p>
+                    </div>
+      
+                  </div>
+      
+                  <div class="opinion d-flex bb-lgray mb-2">
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1576147/jeremy-farrar.webp?w=63&h=63&f=e14f6493acfd2030982ae08e217f34fd"
+                        alt="" class="mr-3"></a>
+                    <div>
+                      <a href="#" class="cat-item-link">Corporations Are Exploiting the Coronavirus Crisis. And Republicans
+                        Are Helping Them</a>
+                      <p class="block-title">BY ROBERT REICH</p>
+                    </div>
+      
+                  </div>
+      
+                  <div class="opinion d-flex bb-lgray mb-2">
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1575966/beth-vial.webp?w=63&h=63&f=909e8f49f3d3f99e53e4eee9007af78e"
+                        alt="" class="mr-3"></a>
+                    <div>
+                      <a href="#" class="cat-item-link">Even in a Pandemic, People Still Need Abortions</a>
+                      <p class="block-title">BY BETH VIAL</p>
+                    </div>
+      
+                  </div>
+      
+                  <div class="opinion d-flex mb-2">
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1575501/forman-andrew.webp?w=63&h=63&f=05c96bda48a8f56b570d9c2153136832"
+                        alt="" class="mr-3"></a>
+                    <div>
+                      <a href="#" class="cat-item-link">Coronavirus Is Corporations' Chance to Prove Their Worth to
+                        Communities</a>
+                      <p class="block-title">BY ANDREW FORMAN</p>
+                    </div>
+      
+                  </div>
+      
+                </div>
+      
+                <div class="debate-container py-3 mt-3 mt-md-0 back-white">
+                  <h5 class="block-title">THE DEBATE</h5>
+                  <div class="d-flex debate-item bb-lgray pb-2">
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
+                        alt="" class="mr-3 img-square-25"></a>
+                    <h6 class="align-self-center"><a href="#" class="cat-item-link">Biden's Running Mate Needs to Win Him an
+                        Entire State, Not Just a Constituency</a></h6>
+      
+                  </div>
+      
+      
+                  <div class="d-flex justify-content-between bt-lgray position-relative">
+                    <a class="block-title align-self-center"><span class="block-title">BY</span> ANDREW FORMAN</a>
+                    <a href="#" class="img-absolute"><img
+                        src="https://d.newsweek.com/en/full/1575501/forman-andrew.webp?w=63&h=63&f=05c96bda48a8f56b570d9c2153136832"
+                        alt="" class="mr-3"></a>
+                  </div>
+      
+                  <span class="black-round">VS</span>
+      
+                  <div class="d-flex debate-item bb-lgray pb-2">
+                    <a href="#"><img
+                        src="https://d.newsweek.com/en/full/1573022/joe-biden-bernie-sanders.webp?w=397&h=265&f=f90d6b535ea0fcac3ae722c195fdf784"
+                        alt="" class="mr-3 img-square-25"></a>
+                    <h6 class="align-self-center"><a href="#" class="cat-item-link">A Woman of Color VP Is More Than a
+                        Consolation Prize. It's a Necessity</a></h6>
+      
+                  </div>
+      
+      
+                  <div class="d-flex justify-content-between bt-lgray position-relative">
+                    <a class="block-title align-self-center"><span class="block-title">BY</span> WILL WILLIAMS </a>
+                    <a href="#" class="img-absolute"><img
+                        src="https://d.newsweek.com/en/full/1576074/will-williams.webp?w=63&h=63&f=de52cbe776cf49416f8efffc98ef542b"
+                        alt="" class="mr-3"></a>
+                  </div>
+                </div>
+
+                <div class="latest-news-container pt-3 mt-3 mt-md-0 back-white">
+                  <h5 class="block-title">LATEST NEWS</h5>
+      
+                  <div class="latest-news bb-lgray my-3">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                        class="mr-3 img-square-25 float-left"></a>
+                    <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+      
+                  </div>
+      
+                  <div class="latest-news bb-lgray my-3">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                        class="mr-3 img-square-25 float-left"></a>
+                    <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+      
+                  </div>
+      
+                  <div class="latest-news bb-lgray my-3">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                        class="mr-3 img-square-25 float-left"></a>
+                    <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+      
+                  </div>
+      
+                  <div class="latest-news bb-lgray my-3">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                        class="mr-3 img-square-25 float-left"></a>
+                    <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+      
+                  </div>
+                  <div class="latest-news my-2">
+                    <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                        class="mr-3 img-square-25 float-left"></a>
+                    <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+      
+                  </div>
+                </div>
+
+        </div>
+
+
+        <div class="sponsored-insight-container col-md-5 col-lg-3 order-10 order-md-3 order-lg-4 back-white pt-3 mt-3 mt-md-0 row-item d-md-none">
+            <div class="sponsored-item mb-3">
+              <div class="position-relative">
+                <a href="#"><img
+                    src="https://d.newsweek.com/en/full/1571562/leading-dependency-treatment-2020.webp?w=737&f=c78db057fcb51d5d3bb83d1ca6476be8"
+                    alt="#" class="img-fluid"></a>
+                <span class="float-absolue">SPONSORED INSIGHT</span>
+              </div>
+              <div class="sponsored-item-content px-3 py-2">
+              <a href="#" class="heading-link">Who Leads the Field in Dependency Treatment in 2020?</a>
+              <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to
+                ensure
+                that you will not just turn the corner, but keep carrying on down the right road for the rest of your
+                life?
+                Find out more.</p>
+              </div>
+
+            </div>
+
+            <div class="sponsored-item mb-3">
+              <div class="position-relative">
+                <a href="#"><img
+                    src="https://d.newsweek.com/en/full/1571562/leading-dependency-treatment-2020.webp?w=737&f=c78db057fcb51d5d3bb83d1ca6476be8"
+                    alt="#" class="img-fluid"></a>
+                <span class="float-absolue">SPONSORED INSIGHT</span>
+              </div>
+              <div class="sponsored-item-content px-3 py-2">
+              <a href="#" class="heading-link">Who Leads the Field in Dependency Treatment in 2020?</a>
+              <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to
+                ensure
+                that you will not just turn the corner, but keep carrying on down the right road for the rest of your
+                life?
+                Find out more.</p>
+              </div>
+
+            </div>
+
+            <div class="sponsored-item mb-3">
+              <div class="position-relative">
+                <a href="#"><img
+                    src="https://d.newsweek.com/en/full/1571562/leading-dependency-treatment-2020.webp?w=737&f=c78db057fcb51d5d3bb83d1ca6476be8"
+                    alt="#" class="img-fluid"></a>
+                <span class="float-absolue">SPONSORED INSIGHT</span>
+              </div>
+              <div class="sponsored-item-content px-3 py-2">
+              <a href="#" class="heading-link">Who Leads the Field in Dependency Treatment in 2020?</a>
+              <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to
+                ensure
+                that you will not just turn the corner, but keep carrying on down the right road for the rest of your
+                life?
+                Find out more.</p>
+              </div>
+
+            </div>
+
+            <div class="sponsored-item mb-3">
+              <div>
+                <a href="#"><img
+                    src="https://d.newsweek.com/en/full/1568509/newsweek-amplify.webp?w=737&f=24a027f70d549a47789ac4427e8855b4"
+                    alt="#" class="img-fluid"></a>
+              </div>
+              <div class="sponsored-item-content px-3 py-2">
+              <a href="#" class="heading-link">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</a>
+              <p>Newsweek AMPLIFY, the company's independent business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies..</p>
+              </div>
+
+            </div>
+    
+        </div>
+        
+        <div class="more-story-container order-10 order-md-3 col-md-7 col-lg-5 py-3 mt-3 mt-md-0 back-white row-item d-md-none">
+            <h5 class="block-title bb-lgray">MORE STORIES</h5>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story bb-lgray py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+
+            <div class="more-story py-3">
+              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
+                  class="mr-3 img-square-25 float-left"></a>
+              <a href="#" class="heading-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
+              <p>The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+            </div>
+        </div>
           
-          <div class="culture-n-travel-container order-10 order-md-3 order-lg-3 col-md-7 col-lg-5 pt-3 mt-3 mt-md-0 back-white">
+        <div class="culture-n-travel-container order-10 order-md-2 order-lg-3 col-md-7 col-lg-5 pt-3 mt-3 mt-md-0 back-white row-item d-md-none">
             <h5 class="block-title">CULTURE & TRAVEL</h5>
             <div class="row">
               <div class="culture-n-travel-item col-md-4">
@@ -406,48 +719,9 @@
               </div>
             </div>
 
-          </div>
+        </div>
           
-
-          <div class="latest-news-container col-lg-4 order-10 pt-3 mt-3 mt-md-0 back-white">
-            <h5 class="block-title">LATEST NEWS</h5>
-
-            <div class="latest-news bb-lgray my-3">
-              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
-                  class="mr-3 img-square-25 float-left"></a>
-              <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
-
-            </div>
-
-            <div class="latest-news bb-lgray my-3">
-              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
-                  class="mr-3 img-square-25 float-left"></a>
-              <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
-
-            </div>
-
-            <div class="latest-news bb-lgray my-3">
-              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
-                  class="mr-3 img-square-25 float-left"></a>
-              <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
-
-            </div>
-
-            <div class="latest-news bb-lgray my-3">
-              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
-                  class="mr-3 img-square-25 float-left"></a>
-              <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
-
-            </div>
-            <div class="latest-news my-2">
-              <a href="#"><img src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg" alt=""
-                  class="mr-3 img-square-25 float-left"></a>
-              <a href="#" class="cat-item-link">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</a>
-
-            </div>
-          </div>
-
-          <div class="sponsored-insight-bottom-container order-10 offset-md-3 col-md-6 col-lg-4 order-4 back-white pt-3 mt-3 mt-md-0">
+       <div class="sponsored-insight-bottom-container order-10 offset-md-3 col-md-6 col-lg-4 order-4 back-white pt-3 mt-3 mt-md-0 row-item d-lg-none">
             <div class="sponsored-item mb-3">
               <div class="position-relative">
                 <a href="#"><img
@@ -507,15 +781,10 @@
 
             </div>
     
-          </div>
+        </div>
         
       
-           
-
-          
-
-        
-      </div>
+     </div>
 
     </div>
 
