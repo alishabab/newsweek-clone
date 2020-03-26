@@ -29,8 +29,6 @@ main {
   margin-top: 50px;
 }
 
-/* WORKING ON HEADER */
-
 .header-top {
   width: 100%;
   background-color: #f72210;
@@ -101,8 +99,6 @@ main {
 .border-right {
   border-right: 1px solid lightgray;
 }
-
-/* WOEKING ON MAIN */
 
 .back-white {
   background-color: white;
@@ -209,8 +205,6 @@ main {
   padding-left: 6px;
   padding-right: 6px;
 }
-
-/* WORKING ON BOOTOM */
 
 .n-title {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
@@ -398,8 +392,6 @@ main {
   width: 40%;
   background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
 }
-
-/* Working on footer */
 
 .footer-logo {
   color: #f72210;
